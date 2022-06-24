@@ -1,23 +1,3 @@
-// var headers = new Headers([
-//     ['Content-Type', 'application/json']
-// ])
-
-// var body = {contrato: "786571"}
-
-// function getClassAddId(){
-//     var x = document.getElementsByClassName("titulo")[0];
-//     x.id="titulo123"
-// }
-
-// fetch("https://areacliente.neotelecom.com.br/api/ConsultaSaldo", {
-//     "method": "POST", 
-//     "headers": headers, 
-//     "body": JSON.stringify(body)
-// })
-// .then(response=>response.json())
-// .then(function(success){
-//     document.getElementById('titulo123').innerText = success.saldo
-// });
 
 
 var headers = new Headers([
@@ -88,36 +68,4 @@ const b = document.querySelector("button");
 
     b.setAttribute("type", "button");
     b.setAttribute("onclick", "console.log(requestDebt())");
-
-
-
-
-// <td><button src="#" onclick="console.log(requestDebt())">REFRESH</button></td>
-
-
-// document.getElementById("mensagem").classList.add("my-class");
-
-// document.getElementById("mensagem").id = "mensagem";
-
-// document.getElementById("mensagem").classList.add("my-class");
-
-
-
-
-// const btn = document.createElement("button");
-// const node = document.createTextNode("REFRESH");
-// btn.appendChild(node);
-
-// const element = document.getElementById("mensagem");
-// element.appendChild(btn);
-
-
-
-// const td = document.createElement("td");
-// const node = document.createTextNode("");
-// td.appendChild(node);
-
-// const element = document.getElementById("tcontratos");
-// element.appendChild(td);
-
 
