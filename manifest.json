@@ -1,0 +1,6 @@
+{
+  "name": "Neotelecon debt refresh",
+  "description": "Refresh user's debt, make sure you are logged in!",
+  "version": "1.0",
+  "manifest_version": 1
+}
